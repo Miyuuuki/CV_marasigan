@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+div {
+    font-family: 'Assistant', sans-serif;
+}
+
+hr {
+    top: 10px;
+    height: 2px;
+    background: #4b5563;
+}
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #1e3a8a;
+    border: solid 1px #ffffff;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  }

@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <title>CV Portfolio</title>
+  <script>
+    $(document).ready(function(){
+      $(".btn3").click(function(){
+            $("h1").slideToggle();
+      });
+    });
+  </script>
+</head>
+<body class="bg-white">
+  <nav class="px-2 px-4 py-2.5 rounded">
+  <div class="container flex flex-wrap justify-between items-center mx-auto">
+    <a href="index.html">
+      <span class="self-center text-xl font-semibold">Maegan Marasigan</span>
+    </a>
+      <div class="w-full md:block md:w-auto">
+        <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 text-sm">
+          <li>
+            <a href="cv.html" 
+            class="block p-2 text-gray-600 border-b border-gray-100 hover:bg-gray-100 rounded-full">CV</a>
+          </li>
+          <li>
+            <a href="portfolio.html" 
+            class="block p-2 text-gray-600 border-b border-gray-100 hover:bg-gray-100 rounded-full">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="flex flex-wrap grid place-items-center h-screen">
+    <h1 class="p-10">Websites are from Web Design and Empowerment Tech Class</h1>  
+    <button class="btn3 font-semiblack text-lg pt-10">Websites ↑</button> 
+    <div class="container mx-auto">
+      <section class="overflow-hidden">
+      <div class="container py-2 mx-auto pt-5 px-32">
+        <div class="flex flex-wrap m-1">
+          <div class="flex flex-wrap w-1/3">
+            <div class="w-full p-5">
+              <a href="https://miyuuuki.github.io/HW_WebDesign/#">
+                <img src="images/electionswebsite.png"
+                class="block object-cover object-center w-full h-full rounded-xl"
+                alt="gallery"
+                >
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-wrap w-1/3">
+            <div class="w-full p-5">
+              <a href="https://miyuuuki.github.io/Scooter/">
+                <img src="images/scooterwebsite.png"
+                class="block object-cover object-center w-full h-full rounded-xl"
+                alt="gallery"
+                >
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-wrap w-1/3">
+            <div class="w-full p-5">
+              <a href="https://marasiganpython.wixsite.com/bicycles">
+                <img src="images/ciitshs.png"
+                class="block object-cover object-center w-full h-full rounded-xl"
+                alt="gallery"
+                >
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    <div class="text-center p-2">
+      <p class="font-semiblack text-lg">Wix Websites </p>
+    </div>
+    <div class="grid-cols-3 space-y-0 grid gap-5 grid-rows-3 px-36">
+      <div class="w-full rounded-xl">
+        <a href="https://marasiganpython.wixsite.com/group1python">
+          <img src="images/blog.png"
+          alt="image">
+        </a>
+      </div>
+      <div class="w-full col-span-2 row-span-2 rounded">
+        <div class="w-full rounded-xl">
+          <a href="https://marasiganpython.wixsite.com/bicycles">
+            <img src="images/bicycles.png"
+            alt="image">
+          </a>
+        </div>
+      </div>
+      <div class="w-full rounded-xl">
+        <a href="https://marasiganpython.wixsite.com/beep">
+          <img src="images/sciwebsite.png"
+          alt="image">
+        </a>
+      </div>
+    </div>        
+    </div>   
+  </div>
+</body>
+</html>
